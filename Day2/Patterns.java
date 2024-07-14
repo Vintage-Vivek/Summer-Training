@@ -1,6 +1,4 @@
 package Day2;
-import java.util.Scanner;
-import java.util.*;
 
 public class Patterns {
     public static void main(String[] args) {
