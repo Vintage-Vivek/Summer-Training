@@ -11,6 +11,7 @@ public class inputUser {
             System.out.print("The sum will be: ");
             int sum = a + b;
             System.out.println(sum);
+            sc.close();   // Added this statement for sc error
 
         }
     
