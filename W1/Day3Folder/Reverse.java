@@ -1,4 +1,4 @@
-package Week1.Day3Folder;
+package W1.Day3Folder;
 
 public class Reverse {
     public static int ReverseInt(int n){

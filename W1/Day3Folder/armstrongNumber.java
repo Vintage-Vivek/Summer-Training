@@ -1,4 +1,4 @@
-package Week1.Day3Folder;
+package W1.Day3Folder;
 
 public class armstrongNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Week1.Day3Folder;
+package W1.Day3Folder;
 
 public class PrimeNumber {
     public static boolean checkPrime(int n){

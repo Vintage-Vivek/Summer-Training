@@ -1,4 +1,4 @@
-package Week1.Day3Folder;
+package W1.Day3Folder;
 
 public class Array1 {
     public static void display(int[] arr){
