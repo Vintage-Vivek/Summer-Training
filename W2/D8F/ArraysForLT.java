@@ -1,8 +1,7 @@
-package W2.D8F;
+package ST.W2.D8F;
 
 public class ArraysForLT {
-
-
+    
     public static void displayArray(int[] arr){
         //code for displaying my array
         for(int i=0;i<arr.length;i++){
@@ -107,12 +106,6 @@ public class ArraysForLT {
         NSLNI(nums,arr);
         //NSLCI(nums,arr);
         displayArray(arr);
-
-
-        
-
-
-
-    }
     
+    }
 }
