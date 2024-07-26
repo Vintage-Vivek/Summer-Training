@@ -1,4 +1,4 @@
-package ST.W2.D8F;
+package W2.D8F;
 
 public class ArraysForLT {
     
