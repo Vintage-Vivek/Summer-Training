@@ -63,7 +63,7 @@ public class sorting2 {
         }
     }
     static void insertionSort(int arr[]){
-        int n = arr.length;
+        //int n = arr.length;
         for(int i=1;i<arr.length;i++){
             int key=arr[i];
             int j= i-1;
@@ -88,7 +88,7 @@ public class sorting2 {
         //Arrays.sort(arr);
         //for each loop
         for(int i:arr){
-            System.out.print(arr[i]+" ");
+            System.out.print(i+" ");
         }
         sc.close();
     }
