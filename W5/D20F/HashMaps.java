@@ -1,8 +1,8 @@
 package W5.D20F;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
+//import java.util.Map;
 
 public class HashMaps {
 
@@ -76,9 +76,9 @@ public class HashMaps {
         System.out.println(mp.get(3)); // null
 
         // itrate over map
-        for (Map.Entry m:mp.entrySet()) {
-            System.out.println("the key is: "+m.getKey()+ ":" + m.getValue());
-        }
+        // for (Map.Entry m:mp.entrySet()) {
+        //     System.out.println("the key is: "+m.getKey()+ ":" + m.getValue());
+        // }
 
         int[] a={1,2,3,4,5,5,4,2,2,2,3,1,4};
         // Map<Integer,Integer> mapu=countmap(a);
