@@ -21,9 +21,7 @@ public class Bank {
     void withdraw(int amount){
        if (Balance==0) {
         return;
-       } Balance = amount+Balance;
-    }
-    
-    
-    
+       } 
+       Balance = Balance-amount;
+    }  
 }
