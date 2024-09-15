@@ -117,6 +117,14 @@ public class Array_practice {
          */
         
         //insertion sort
-        
+        // for (int i = 1; i < q.length; i++) {
+        //     int current = q[i];
+        //     int j = i-1;
+        //     while (j>=0 && q[j]>current) {
+        //         q[j+1] = q[j];
+        //         j--;
+        //         q[j+1] = current;
+        //     }
+        // }
     }
 }    
