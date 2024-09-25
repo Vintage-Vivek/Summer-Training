@@ -26,6 +26,5 @@ public class client {
         System.out.println(n3);
         System.out.println(n1.next);
         System.out.println(n2.next);
-
     }
 }
