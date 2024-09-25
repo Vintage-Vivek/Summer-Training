@@ -21,6 +21,8 @@ public class client {
         n2.next = n3;
 
         //printing addresses
+        System.out.println(Head);
+        System.out.println(temp);
         System.out.println(n1);
         System.out.println(n2);
         System.out.println(n3);

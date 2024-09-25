@@ -10,9 +10,9 @@ public class Client {
         ll.addAtIndex(50,2);
         ll.Display();
         int n = 2;
-        System.out.println(ll.removeFirst());
-        System.out.println(ll.removeEnd());
-        System.out.println(ll.removeKth(1));
+        //System.out.println(ll.removeFirst());
+        //System.out.println(ll.removeEnd());
+        System.out.println("hello : "+ll.removeKth(1));
         ll.Display();
         System.out.println("Element at index passed " + n + " : " + ll.getIndex(n));
         System.out.println("Size : "+ll.size());
