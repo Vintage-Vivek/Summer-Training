@@ -1,15 +1,12 @@
 package W2.D8F;
 
 public class ArraysForLT {
-    
     public static void displayArray(int[] arr){
         //code for displaying my array
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
     }
-
-
     public static void NGRNI(int[] nums,int[] arr){
         int maxR=0;
         for(int i=nums.length-1;i>=0;i--){
@@ -17,7 +14,6 @@ public class ArraysForLT {
             maxR=Math.max(maxR, nums[i]);
         }
     }
-
     public static void NGRCI(int[] nums,int[] arr){
         int maxR=0;
         for(int i=nums.length-1;i>=0;i--){
@@ -25,7 +21,6 @@ public class ArraysForLT {
             arr[i]=maxR;
         }
     }
-
     public static void NGLNI(int[] nums,int[] arr){
         int maxR=0;
         for(int i=0;i<nums.length;i++){
@@ -33,7 +28,6 @@ public class ArraysForLT {
             maxR=Math.max(maxR, nums[i]);
         }
     }
-
     public static void NGLCI(int[] nums,int[] arr){
         int maxR=0;
         for(int i=0;i<nums.length;i++){
@@ -41,7 +35,6 @@ public class ArraysForLT {
             arr[i]=maxR;
         }
     }
-
     public static void NSRNI(int[] nums,int[] arr){
         int minR=100;
         for(int i=nums.length-1;i>=0;i--){
@@ -49,7 +42,6 @@ public class ArraysForLT {
             minR=Math.min(minR, nums[i]);
         }
     }
-
     public static void NSRCI(int[] nums,int[] arr){
         int minR=100;
         for(int i=nums.length-1;i>=0;i--){
@@ -57,7 +49,6 @@ public class ArraysForLT {
             arr[i]=minR;
         }
     }
-
     public static void NSLNI(int[] nums,int[] arr){
         int minR=100;
         for(int i=0;i<nums.length;i++){
@@ -65,7 +56,6 @@ public class ArraysForLT {
             arr[i]=minR;
         }
     }
-
     public static void NSLCI(int[] nums,int[] arr){
         int minR=100;
         for(int i=0;i<nums.length;i++){
@@ -73,27 +63,7 @@ public class ArraysForLT {
             minR=Math.min(minR, nums[i]);
         }
     }
-
-
-
     public static void main(String[] args) {
-        System.out.println("leet code k quesyions kar rhe hain \nNGR NGL NSR NSL");
-                        // class Solution {
-                        // public int maxProfit(int[] prices) {
-                        //  int minPrice = Integer.MAX_VALUE;
-                        //  int maxProfit = 0;
-        
-                        // for (int price : prices) {
-                        //      minPrice = Math.min(minPrice, price);
-                        //      maxProfit = Math.max(maxProfit, price - minPrice);
-                        //     }
-        
-                        //     return maxProfit;
-                        //     }
-                        //     }
-
-                        /*  */
-
         //NGR next greatest to the right when current element is not included
         int[] nums={2,3,1,8,7,3,4};
         int[] arr=new int[nums.length];
@@ -103,9 +73,9 @@ public class ArraysForLT {
         //NGLCI(nums,arr);
         //NSRNI(nums,arr);
         //NSRCI(nums,arr);
-        NSLNI(nums,arr);
+        //NSLNI(nums,arr);
         //NSLCI(nums,arr);
         displayArray(arr);
-    
+
     }
 }

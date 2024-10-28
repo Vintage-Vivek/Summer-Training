@@ -33,6 +33,8 @@ public class Queue_Practice {
 /*  
 queue is daynamic data structure 
 
+queue dynamic 90 percent 10 percent static
+
 its FIFO -----> first in first out
 
 operations :- 
