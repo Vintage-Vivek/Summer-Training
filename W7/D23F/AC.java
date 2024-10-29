@@ -1,43 +1,40 @@
 package W7.D23F;
 
-public class AC {
+public class Ac {
     
-    //state 
-
+    //description
+    //State
     boolean Start;
     int temp;
     String swing;
-    int fanspeed;
-    
-    // AC(){ // non parameterised
-             // default constructor
-    // }
-    
-    AC(boolean val1, int val2, String val3, int val4){ // parameterised
-        Start = val1;                                  // constructor
-        temp = val2;
-        swing = val3;
-        fanspeed = val4;
+    int fanSpeed;
+    Ac(){ //non parametrised
+        //default constructor
     }
-
-    
+    Ac(boolean val1,int val2,String val3,int val4){ //pramaterised
+        //constructor
+        Start=val1;
+        temp=val2;
+        swing=val3;
+        fanSpeed=val4;
+    }
     //Behaviour
     void SwitchMode(){
-        if (Start==true) {
-            Start = false;
+        if(Start=true){
+            Start=false;
         }else{
-            Start= true;
+            Start=true;
         }
     }
     void Increase(){
         if(temp==30){
-            return;
+            return; //conditional return
         }
         temp++;
     }
     void Decrease(){
         if(temp==16){
-            return; // conditional return
+            return; //conditional return
         }
         temp--;
     }

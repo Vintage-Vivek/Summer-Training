@@ -2,44 +2,12 @@ package W6.D22F;
 
 import java.util.Scanner;
 
-public class Print_array {
-    public static void printarr (int [][] arr){
-        Scanner scan = new Scanner(System.in);
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                arr [i][j] = scan.nextInt();
-            }
-        }
-        
-        System.out.println();
-
-        // System.out.println(arr);
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                System.out.print(arr[i][j]+" ");
-            }
-            System.out.println();
-        }
-        scan.close();
-    }
-    public static void main(String[] args) {
-        int [][] arr = new int [3][4];
-        printarr(arr);
-    }
-    
-}
-
-/* 
- package Week6;
-
-import java.util.Scanner;
-
 //java is a two face system- compilation face compiler and run time face jvm java virtual machine
 //then os operating system demand memory ram divides into two memory stack and heap and goes in stack
 //jvm calls main fn and copy gets created of a fn called function frame in stack
 //compiler design-syntax analysis and grammatical error
 //memory leakage if stack has left some memory
-public class revision {
+public class Revision2 { 
     // public static int add(int a,int b){
     //     int sum=a+b;
     //     //return sum; //helps in returning and wipes out fn
@@ -132,4 +100,3 @@ public class revision {
     //fn if return then the value comes where it's been called
     //create a matrix and print in zigzag order
 }
-*/

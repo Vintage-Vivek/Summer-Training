@@ -13,7 +13,6 @@ public class Class2 {
     }
     public static void main(String[] args) {
         Students s1= new Students();
-        System.out.println(s1); // again maine kiya hai
         Students utkarsh= new Students(
             69,
             "Utkarsh",

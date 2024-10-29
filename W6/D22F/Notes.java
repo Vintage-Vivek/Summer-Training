@@ -7,6 +7,10 @@ public class Notes {
    System.out.println("array homework for test");
    
    // end date :- october mid 10 to 15 - tentative
+   
+   
+   
+   
    // array test :-
    // sorting : bubble sort ; selection sort ; insertion sort
    // two pointers 

@@ -8,12 +8,12 @@ public class Client {
         ll.addFirst(30);
         ll.addLast(100);
         ll.addAtIndex(50,2);
-        ll.Display();
+        ll.display();
         int n = 2;
         //System.out.println(ll.removeFirst());
         //System.out.println(ll.removeEnd());
-        System.out.println("hello : "+ll.removeKth(1));
-        ll.Display();
+        System.out.println("hello : "+ll.remove(1));
+        ll.display();
         System.out.println("Element at index passed " + n + " : " + ll.getIndex(n));
         System.out.println("Size : "+ll.size());
 

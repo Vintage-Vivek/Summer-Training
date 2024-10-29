@@ -1,5 +1,4 @@
 package W4.D17F;
-//add whatsapp code in this
 
 public class rat_in_a_mazeshortestpath {
     static int sol[][] = new int[100][100];
