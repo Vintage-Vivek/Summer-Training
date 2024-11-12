@@ -29,7 +29,7 @@ public class dynamic_programing {
         }
         return fib(n-1)+fib(n-2);
     }
-    //dp top down
+    //dp top down approach
     public static int fibo(int n, int [] dp){
         if(n==0||n==1){
         return n;

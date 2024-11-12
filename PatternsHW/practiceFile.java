@@ -6,10 +6,4 @@ public class practiceFile {
         // * * * * *  
         // * * * * *  
         // * * * * *
-        
-        
-
-
-
-    
 }

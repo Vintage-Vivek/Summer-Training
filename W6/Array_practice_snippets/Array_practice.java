@@ -1,3 +1,4 @@
+package W6.Array_practice_snippets;
 public class Array_practice {
     public static void main(String[] args) {
         int [] q = {0,1,2,3,4,5};
